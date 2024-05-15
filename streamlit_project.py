@@ -2,7 +2,8 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('C:/Users\LENOVO/Documents/framework/model_deploy/model_predictive_updated.sav', 'rb'))
+model = model_predictive_updated.sav
+loaded_model = pickle.load(open('model', 'rb'))
 
 # Creating a function for prediction
 def attrition_prediction(input):
