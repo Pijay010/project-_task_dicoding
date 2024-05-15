@@ -1,7 +1,9 @@
+import pandas as pd
 import numpy as np
 import pickle
 import streamlit as st
 
+df_model = pd.read_csv('data perusahaan.csv')
 loaded_model = pickle.load(open('model_predictive_updated.sav', 'rb'))
 
 # Creating a function for prediction
