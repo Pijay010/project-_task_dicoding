@@ -31,3 +31,10 @@ berdasarkan analisis hingga membangun sebuah model, maka dapat ditarik beberapa 
 2. Perusahaan disarankan untuk banyak mempertimbangkan dengan gaji perbulan yang didapat oleh karyawan khususnya karyawan yang melakukan Overtime.
 3. Perusahaan harus memperhatikan dan membuat kebijakan terkait keterlibatan kerja karyawan.
 
+# Cara menggunakan model prediksi
+1. Isi semua data pada kolom feature streamlit
+2. Pastikan input data hanya dengan angka saja
+3. Jangan menggunakan spasi atau whitespace diantara angka
+4. Jangan menggunakan tanda titik atau koma untuk memisah digit. for example: monthly rate = 2555
+5. Untuk kolom kategori gunakan angka 1 sebagai kategori (sangat lemah) hingga 5 kategori (sangat tinggi)
+
