@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import pickle
 import streamlit as st
-import sklearn
 
 
 df_model = pd.read_csv('data_perusahaan.csv')
