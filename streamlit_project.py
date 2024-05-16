@@ -5,7 +5,7 @@ import streamlit as st
 
 
 df_model = pd.read_csv('data_perusahaan.csv')
-loaded_model = pickle.load(open(model_predictive_updated.sav, 'rb'))
+loaded_model = pickle.load(open('model_predictive_updated.sav', 'rb'))
 
 # Creating a function for prediction
 def attrition_prediction(input):
