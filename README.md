@@ -1,16 +1,59 @@
 # Proyek akhir: Menyelesaikan permasalahan perusahaan Jaya Jaya maju
 # Business Understanding
-Perusahaan jaya jaya maju adalah perusahaan yang bergerak dibidang ritel skala multinasional
-dengan jumlah karyawan yaitu 1470 karyawan. Perusahaan ini telah berdiri sejak tahun 2000 dan telah berumur 24 tahun saat ini.
-Namun, perusahaan jaya-jaya maju saat ini memiliki permasalahan yang belum pernah terjadi sebelumnya. perusahaan jaya-jaya maju 
-meminta seorang data scientist untuk menganalisis untuk menghasilkan sebuah insight atas permasalahan bisnis serta
-membuat sebuah keputusan dari data yang telah dianalisis dan membuat sebuah rekomendasi action. 
-Adapun bentuk permasalahan di dalam perusahaan tersebut yaitu sebagai berikut.
+Perusahaan jaya jaya maju adalah perusahaan yang bergerak skala multinasional dengan jumlah karyawan yaitu 1470 karyawan. Perusahaan ini telah berdiri sejak tahun 2000 dan telah berumur 24 tahun saat ini. Namun, perusahaan jaya-jaya maju saat ini memiliki permasalahan yang belum pernah terjadi sebelumnya. perusahaan jaya-jaya maju meminta seorang data scientist untuk menganalisis untuk menghasilkan sebuah insight atas permasalahan bisnis serta membuat sebuah keputusan dari data yang telah dianalisis dan membuat sebuah rekomendasi action. Adapun bentuk permasalahan di dalam perusahaan tersebut yaitu sebagai berikut. Terdapat 33 feature di dalam dataset perusahaan Jaya Jaya Maju diantaranya adalah:
+1. index = Berisi nilai unique untuk setiap baris
+2. EmployeeId = nomor identifikasi karyawan
+3. Age = umur karyawan  
+4. Attrition = nilai kategori untuk karyawan meninggalkan perusahaan dan tidak meninggalkan perusahaan
+5. BusinessTravel = kelaur masuk perusahaan
+6. DailyRate = Tarif harian karyawan
+7. Department = Divisi perusahaan 
+8. DistanceFromHome = Jarak antara rumah karyawan dengan perusahaan
+9. Education = pendidikan karyawan
+10. EducationField = bagian spesifik pendidikan karyawan
+11. EmployeeCount = total karyawan
+12. EnvironmentSatisfaction = Kepuasan lingkungan
+13. Gender = Jenis kelamin karyawan
+14. HourlyRate = Tarif perjam karyawan 
+15. JobInvolvement = keterlibatan kerja karyawan  
+16. JobLevel = tingkat pekerjaan keryawan  
+17. JobRole = Bidang pekerjaan karyawan 
+18. JobSatisfaction = kepuasan pekerjaan  
+19. MaritalStatus = status menikah
+20. MonthlyIncome = Gaji perbulan karyawan
+21. MonthlyRate = Tarif perbulan karyawan 
+22. NumCompaniesWorked = Tahun bekera di perusahaan 
+23. Over18 = apakah karyawan telah berumur 18 tahun ke atas?
+24. OverTime = karyawan melakukan overtime atau tidak
+25. PercentSalaryHike = percentase kenaikan gaji karyawan
+26. PerformanceRating = tingkat kinerja karyawan
+27. RelationshipSatisfaction = Kepuasan hubungan  
+28. StandardHours = standard kerja perjam karyawan  
+29. StockOptionLevel = level pilihan investasi  
+30. TotalWorkingYears = total kerja setiap tahun  
+31. TrainingTimesLastYear = pelatihan yang diikuti karyawan dalam tahun terakhir  
+32. WorkLifeBalance = keseimbangan antara pekerjaan dengan kehidupan
+33. YearsAtCompany = tahun di dalam perusahaan
+34. YearsInCurrentRole = total tahun di dalam pekerjaan saat ini
+35. YearsSinceLastPromotion = total tahun sejak promosi terakhir
+36. YearsWithCurrManager = total tahun bersama manager saat ini
+
 # Permasalahan Bisnis
 Saat ini perusahaan jaya-jaya maju tengah menghadapi permasalahan yaitu banyaknya karyawan yang melakukan churn atau attrition.
 karyawan yang melakukan attrition merupakan karyawan yang berada di bermacam-macam bidang pekerjaan dengan gaji perbulan yang berbeda-beda di setiap bidang.
 # Cakupan proyek
-Tujuan dari proyek ini adalah untuk menganalisis faktor-faktor yang mempengaruhi attrition yang berfokus pada karyawan yang melakukan attrition beserta kedudukannya, serta hak-hak mereka di perusahaan. kedudukan yang dimaksud adalah bidang pekerjaan terakhir yang dipegang dan hak-hak yang dimaksud adalah gaji perbulan yang diterima dan faktor-faktor lainnya dari feature yang memiliki pola menarik dan feature yang memiliki pengaruh besar terhadap attrition.
+Adapun pertanyaan analisis di dalam proyek ini adalah:
+1. Bagaimana kondisi attrition dan persentasenya?
+2. Bagaimana sebaran attrition berdasarkan feature-feature kategorikal?
+3. Bagaimana sebaran attrition berdasarkan feature-feature numerikal?
+4. Feature apa yang memiliki korelasi kuat dengan attrition?
+5. Bagaimana kondisi feature yang memiliki korelasi kuat terhadap attrition?
+6. Bagaimana kondisi feature monthly income terhadap feature yang memiliki korelasi kuat terhadap attrition?
+7. Di bagian Department manakah karyawan banyak meninggalkan perusahaan yang disesuaikan dengan feature berpengaruh kuat terhadap attrition dan monthly income?
+8. Di bidang pekerjaan apa karyawan banyak melakukan attrition disesuaikan dengan gaji bulanan dan feature yang berkorelasi kuat terhadap attrition?
+# Setup Environment
+1. pip install pandas sqlachemy
+2. pip install streamlit
 # Persiapan
 Sumber data : postgresql://postgres.apbjhbptftppbgeplewk:myprojectjayajayamaju1@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres
 
