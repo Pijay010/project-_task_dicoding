@@ -39,18 +39,14 @@ Perusahaan jaya jaya maju adalah perusahaan yang bergerak skala multinasional de
 36. YearsWithCurrManager = total tahun bersama manager saat ini
 
 # Permasalahan Bisnis
-Saat ini perusahaan jaya-jaya maju tengah menghadapi permasalahan yaitu banyaknya karyawan yang melakukan churn atau attrition.
-karyawan yang melakukan attrition merupakan karyawan yang berada di bermacam-macam bidang pekerjaan dengan gaji perbulan yang berbeda-beda di setiap bidang.
+karyawan berperan penting di dalam perusahaan untuk mewujudkan visi dan misi perusahaan. Permasalahan pada karyawan di dalam perusahaan biasanya identik disebabkan oleh internal perusahaan sendiri seperti gaji tidak sesuai dengan jam kerja dan bidang pekerjaan, budaya kerja yang sangat tidak sehat, serta kebijakan-kebijakan yang dibuat dinilai buruk untuk karyawan sehingga kebijakan tersebut dapat menghambat kinerja karyawan. Disetiap bidang atau divisi pekerjaan di dalam perusahaan memiliki kesinambungan secara kontinu sehingga antar divisi dengan divisi lain selalu saling membutuhkan aghar perusahaan terus berproduksi dan menghasilkan keuntungan. Saat ini perusahaan jaya-jaya maju tengah menghadapi permasalahan yaitu lebih dari 10% banyaknya karyawan yang melakukan churn atau attrition. Permasalahan ini jika diabaikan, maka akan jadi hambatan besar untuk perusahaan dalam mencapai visi dan misinya dan bahkan resiko peluang untuk bangkrut sangat besar. Maka dari itu, untuk mengurangi dan mencegah akibat dari masalah itu sendiri saya akan menganalisis masalah tersebut untuk mencari faktor-faktor yang mempengaruhi attrition serta membuat model machine learning untuk memprediksi identifikasi keputusan attrition pada karyawan.
+
 # Cakupan proyek
-Adapun pertanyaan analisis di dalam proyek ini adalah:
-1. Bagaimana kondisi attrition dan persentasenya?
-2. Bagaimana sebaran attrition berdasarkan feature-feature kategorikal?
-3. Bagaimana sebaran attrition berdasarkan feature-feature numerikal?
-4. Feature apa yang memiliki korelasi kuat dengan attrition?
-5. Bagaimana kondisi feature yang memiliki korelasi kuat terhadap attrition?
-6. Bagaimana kondisi feature monthly income terhadap feature yang memiliki korelasi kuat terhadap attrition?
-7. Di bagian Department manakah karyawan banyak meninggalkan perusahaan yang disesuaikan dengan feature berpengaruh kuat terhadap attrition dan monthly income?
-8. Di bidang pekerjaan apa karyawan banyak melakukan attrition disesuaikan dengan gaji bulanan dan feature yang berkorelasi kuat terhadap attrition?
+Berikut merupakan cakupan di dalam proyek ini:
+Output:
+1. 
+Input:
+1.
 # Setup Environment
 1. pip install pandas sqlachemy
 2. pip install streamlit
