@@ -50,12 +50,15 @@ Di dalam proyek ini mencakup pekerjaan memyiapkan dataset meliputi tahap assesin
 5. Model prediksi, membuat model prediksi untuk mengidentifikasi attrition
 6. Model Deployment, membuat deployment menggunakan streamlit untuk mempermudah para pemangku kebijakan dan divisi terkait menggunakan prediksi attrition.
 7. Dashboard Business.
-   
-# Setup Environment
-1. pip install pandas sqlachemy
-2. pip install streamlit
+
 # Persiapan
 Sumber data : postgresql://postgres.apbjhbptftppbgeplewk:myprojectjayajayamaju1@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres
+# Setup Environment
+Note : dikarenakan saya menggunakan google colab, jadi untuk setup environment nya sedikit berbeda dengan virtual environment anaconda dan lain sebagainya.
+berikut tahap-tahap yang harus dilakukan untuk memulai file project saya pada google colab:
+1. Buka google colab
+2. Upload file My_project_first_expert_level.ipynb di dalam folder notebook ke google colab
+3. Install library yang tidak secara otomatis disediakan oleh google colab dengan cara >> pip install 'library' serta untuk kebutuhan versi dapat merujuk pada file requirements.txt
 
 # Business Dashboard
 Adapun untuk memantau perkembangan masalah attrition di dalam perusahaan jaya jaya maju, hal tersebut menggunakan Dashboard yang di mana untuk memantau perkembangan masalah tersebut. berikut penjelasan mengenai isi Dashboard tersebut:
@@ -65,10 +68,13 @@ Adapun untuk memantau perkembangan masalah attrition di dalam perusahaan jaya ja
 4. parameter attrition berdasarkan karyawan yang melakukan overtime. parameter ini dilakukan untuk memantau karyawan yang melakukan attrition dan melakukan overtime sehingga yang tidak secara langsung akan berkaitan dengan work life balance dan gaji perbulan yang diterimanya. Apabila karyawan terus melakukan overtime dan berdampak dengan work life balance serta tidak ada perkembangan dalam gaji perbulan yang diterima oleh karyawan tersebut, maka akan menjadi peluang besar untuk karyawan tersebut untuk meninggalkan perusahaan.
 5. Adapun link dashboard untuk submission project ini yaitu sebagai berikut 
 6. Link Dashboard : https://public.tableau.com/views/Project_Dashboard_17157405024960/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
+
 # Conclusion
 berdasarkan analisis hingga membangun sebuah model, maka dapat ditarik beberapa poin keputusan.
-1. Di dalam proses analisis, di dapatkan satu feature yang memiliki pengaruh kuat terhadap attrition yaitu feature Overtime
-2. Tidak semua feature memiliki pengaruh kuat terhadap attrition. sehingga di dalam membangun model dipilih 50% dari keseluruhan feature yang dianggap menjadi feature paling panting.
+1. Di dalam proses analisis, di dapatkan satu feature yang memiliki pengaruh kuat terhadap attrition yaitu feature Overtime.
+2. Karakteristik karyawan yang meninggalkan perusahaan didominasi oleh gaji yang relatif kurang dari 5000 dollar, seperti pekerjaan di bidang sales representatif, research scientist dan laboratory technician. dari ketiga bidang pekerjaan tersebut merupakan karyawan yang paling banyak melakukan attrition di bidang tersebut.
+3. Tidak semua feature memiliki pengaruh kuat terhadap attrition. sehingga di dalam membangun model dipilih 50% dari keseluruhan feature yang dianggap menjadi feature paling panting.
+
 # Action Recomendation
 1. Perusahaan disarankan untuk memperhitungkan dan menaikkan gaji karyawan yang melakukan overtime atau lembur kerja. berdasarkan grafik karyawan yang meninggalkan perusahaan adalah karyawan yang melakukan lembur kerja namun gaji lembur yang cenderung tidak besar dalam artian karyawan yang melakukan lembur dan yang tidak mmelakukan lembur memiliki gaji yang tidak cukup berbeda.
 1. Perusahaan disarankan untuk memperhatikan kualitas budaya kerja di dalam perusahaan seperti disiplin, amanah, kerjasama yang baik, pola perilaku positive di dalam perusahaan.
