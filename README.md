@@ -42,11 +42,15 @@ Perusahaan jaya jaya maju adalah perusahaan yang bergerak skala multinasional de
 karyawan berperan penting di dalam perusahaan untuk mewujudkan visi dan misi perusahaan. Permasalahan pada karyawan di dalam perusahaan biasanya identik disebabkan oleh internal perusahaan sendiri seperti gaji tidak sesuai dengan jam kerja dan bidang pekerjaan, budaya kerja yang sangat tidak sehat, serta kebijakan-kebijakan yang dibuat dinilai buruk untuk karyawan sehingga kebijakan tersebut dapat menghambat kinerja karyawan. Disetiap bidang atau divisi pekerjaan di dalam perusahaan memiliki kesinambungan secara kontinu sehingga antar divisi dengan divisi lain selalu saling membutuhkan aghar perusahaan terus berproduksi dan menghasilkan keuntungan. Saat ini perusahaan jaya-jaya maju tengah menghadapi permasalahan yaitu lebih dari 10% banyaknya karyawan yang melakukan churn atau attrition. Permasalahan ini jika diabaikan, maka akan jadi hambatan besar untuk perusahaan dalam mencapai visi dan misinya dan bahkan resiko peluang untuk bangkrut sangat besar. Maka dari itu, untuk mengurangi dan mencegah akibat dari masalah itu sendiri saya akan menganalisis masalah tersebut untuk mencari faktor-faktor yang mempengaruhi attrition serta membuat model machine learning untuk memprediksi identifikasi keputusan attrition pada karyawan.
 
 # Cakupan proyek
-Berikut merupakan cakupan di dalam proyek ini:
-Output:
-1. 
-Input:
-1.
+Di dalam proyek ini mencakup pekerjaan memyiapkan dataset meliputi tahap assesing hingga tahap cleaning pada data jika terdapat duplikat data dan missing value. Selain itu tahap menganalisis data untuk kebutuhan memahami pola data yang dapat disebut tahap exploratory data analisis. Kemudian tahap membuat model machine learning untuk model prediksi pada proyek tersebut serta membuat dashboard bisnis untuk parameter untuk memantau perkembangan masalah pada proyek. Adapun output yang diharapkan dari proyek ini adalah sebagai berikut: 
+1. Visualisasi data exploratory data analisis, diharapkan dapat menjadi ringkasan dari data sehingga dapat mempermudah dalam memahami prilaku data.
+2. Tabel statistik korelasi, untuk menentukan faktor yang paling berpengaruh terhadap attrition
+3. Model machine learning, membuat model machine learning sebagai proses untuk memilih dan menentukan model yang tepat.
+4. Evaluate model, mengevaluasi model yang dihasilkan.
+5. Model prediksi, membuat model prediksi untuk mengidentifikasi attrition
+6. Model Deployment, membuat deployment menggunakan streamlit untuk mempermudah para pemangku kebijakan dan divisi terkait menggunakan prediksi attrition.
+7. Dashboard Business.
+   
 # Setup Environment
 1. pip install pandas sqlachemy
 2. pip install streamlit
