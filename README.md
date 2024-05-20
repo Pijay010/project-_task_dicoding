@@ -54,10 +54,8 @@ Di dalam proyek ini mencakup pekerjaan memyiapkan dataset meliputi tahap assesin
 # Persiapan
 1. Sumber data : postgresql://postgres.apbjhbptftppbgeplewk:myprojectjayajayamaju1@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres
 2. Setup Environment, dikarenakan saya menggunakan google colab, jadi untuk setup environment nya sedikit berbeda dengan virtual environment anaconda dan lain sebagainya.
-berikut tahap-tahap yang harus dilakukan untuk memulai file project saya pada google colab:
-1.1. Buka google colab
-1.2. Upload file My_project_first_expert_level.ipynb di dalam folder notebook ke google colab
-1.3. Install library yang tidak secara otomatis disediakan oleh google colab dengan cara >> pip install 'library' serta untuk kebutuhan versi dapat merujuk pada file requirements.txt
+berikut tahap-tahap yang harus dilakukan untuk memulai file project saya pada google colab: Tahap pertama, Buka google colab
+tahap kedua, Upload file My_project_first_expert_level.ipynb di dalam folder notebook ke google colab. tahap ke tiga, Install library yang tidak secara otomatis disediakan oleh google colab dengan cara >> pip install 'library' serta untuk kebutuhan versi dapat merujuk pada file requirements.txt
 
 # Business Dashboard
 Adapun untuk memantau perkembangan masalah attrition di dalam perusahaan jaya jaya maju, hal tersebut menggunakan Dashboard yang di mana untuk memantau perkembangan masalah tersebut. berikut penjelasan mengenai isi Dashboard tersebut:
