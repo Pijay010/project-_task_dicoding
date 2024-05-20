@@ -70,9 +70,10 @@ berdasarkan analisis hingga membangun sebuah model, maka dapat ditarik beberapa 
 1. Di dalam proses analisis, di dapatkan satu feature yang memiliki pengaruh kuat terhadap attrition yaitu feature Overtime
 2. Tidak semua feature memiliki pengaruh kuat terhadap attrition. sehingga di dalam membangun model dipilih 50% dari keseluruhan feature yang dianggap menjadi feature paling panting.
 # Action Recomendation
-1. Perusahaan disarankan untuk memperhatikan budaya kerja di dalam perusahaan.
-2. Perusahaan disarankan untuk banyak mempertimbangkan dengan gaji perbulan yang didapat oleh karyawan khususnya karyawan yang melakukan Overtime.
-3. Perusahaan harus memperhatikan dan membuat kebijakan terkait keterlibatan kerja karyawan.
+1. Perusahaan disarankan untuk memperhitungkan dan menaikkan gaji karyawan yang melakukan overtime atau lembur kerja. berdasarkan grafik karyawan yang meninggalkan perusahaan adalah karyawan yang melakukan lembur kerja namun gaji lembur yang cenderung tidak besar dalam artian karyawan yang melakukan lembur dan yang tidak mmelakukan lembur memiliki gaji yang tidak cukup berbeda.
+1. Perusahaan disarankan untuk memperhatikan kualitas budaya kerja di dalam perusahaan seperti disiplin, amanah, kerjasama yang baik, pola perilaku positive di dalam perusahaan.
+2. Perusahaan disarankan untuk menaikkan gaji karyawan di department sales dan resaerch representatif khususnya di bidang pekerjaan sales representatif, research scientist dan laboratory techinician yang dimana gaji mereka masih dibawah 5000 dollar, hal ini dapat dinaikkan menjadi lebih dari 5000 dollar atau minimal 5000 dollar untuk mencegah karyawan memutuskan meninggalkan perusahaan.
+3. Perusahaan harus memperhatikan dalam membuat kebijakan terkait keterlibatan kerja karyawan. hal ini dapat menyangkut tingkat kompetisi karyawan untuk bersaing dalam mencari promosi jabatan. Jika karyawan selalu kalah dalam berkompetisi maka hal tersebut akan berdampak kualitas kinerja karyawan tersebut.
 
 # Cara menggunakan model prediksi
 1. Isi semua data pada kolom feature streamlit
