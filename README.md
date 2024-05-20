@@ -78,10 +78,16 @@ berdasarkan analisis hingga membangun sebuah model, maka dapat ditarik beberapa 
 2. Perusahaan disarankan untuk menaikkan gaji karyawan di department sales dan resaerch representatif khususnya di bidang pekerjaan sales representatif, research scientist dan laboratory techinician yang dimana gaji mereka masih dibawah 5000 dollar, hal ini dapat dinaikkan menjadi lebih dari 5000 dollar atau minimal 5000 dollar untuk mencegah karyawan memutuskan meninggalkan perusahaan.
 3. Perusahaan harus memperhatikan dalam membuat kebijakan terkait keterlibatan kerja karyawan. hal ini dapat menyangkut tingkat kompetisi karyawan untuk bersaing dalam mencari promosi jabatan. Jika karyawan selalu kalah dalam berkompetisi maka hal tersebut akan berdampak kualitas kinerja karyawan tersebut.
 
-# Cara menggunakan model prediksi
-1. Isi semua data pada kolom feature streamlit
-2. Pastikan input data hanya dengan angka saja
-3. Jangan menggunakan spasi atau whitespace diantara angka
-4. Jangan menggunakan tanda titik atau koma untuk memisah digit. for example: monthly rate = 2555
-5. Untuk kolom kategori gunakan angka 1 sebagai kategori (sangat lemah) hingga 5 kategori (sangat tinggi)
-
+# Cara menggunakan script model yang dijalankan secara local
+1. buka folder deployment lalu copy path file
+2. kemudian buka cmd pada komputer anda lalu tulis >> python (path file copied) lalu run
+3. kemudian pastikan environment pada komputer anda telah terinstall python, numpy, scikit-learn dan streamlit
+4. Jika belum terinstall anda perlu menginstalnya contoh library streamlit dengan cara >> pip install streamlit
+5. khusus versi scikit-learn, pastikan anda menggunakan scikit-learn versi 1.2.2 bukan yang terbaru
+3. jika anda sudah menyiapkan library tersebut anda dapat kembali ke poin pertama lalu tulis pada box code selanjutnya >> streamlit run streamlit_project.py lalu run
+4. apabila anda berhasil tanpa error, anda akan diarahkan ke local host streamlit dan model prediksi deployment siap digunakan
+5. setelah itu silahkan isi kolom kosong di dalam deployment dan pastikan nilai bertipe integer bukan string.
+6. khusus untuk kolom feature kategorik anda dapat menyesuaikan yang artinya semakin angka yang anda masukkan besar maka semakin besar pula level tersebut
+7. khusus untuk kolom marital status angka 1 untuk single, 2 untuk married dan 3 untuk divorced
+8. khusus untuk kolom overtime nilai 1 untuk NO dan 2 untuk YES
+9. jika sudah terisi semuanya, silahkan klik tombol prediction test result
