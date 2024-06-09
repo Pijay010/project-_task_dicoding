@@ -57,6 +57,15 @@ Di dalam proyek ini mencakup pekerjaan memyiapkan dataset meliputi tahap assesin
 berikut tahap-tahap yang harus dilakukan untuk memulai file project saya pada google colab: Tahap pertama, Buka google colab.
 tahap kedua, Upload file (My_project_first_expert_level.ipynb) di dalam folder notebook ke google colab. tahap ke tiga, Install library yang tidak secara otomatis disediakan oleh google colab dengan cara >> pip install 'library' serta untuk kebutuhan versi dapat merujuk pada file requirements.txt
 
+## Setup Environment - Shell/Terminal
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
 # Business Dashboard
 Adapun untuk memantau perkembangan masalah attrition di dalam perusahaan jaya jaya maju, hal tersebut menggunakan Dashboard yang di mana untuk memantau perkembangan masalah tersebut. berikut penjelasan mengenai isi Dashboard tersebut:
 1. Parameter gaji perbulan di setiap bidang pekerjaan menjadi salah satu faktor yang dapat mempengaruhi karyawan keluar dari perusahaan selain faktor-faktor berikutnya. apabila gaji yang diterima tidak sesuai dengan bidang pekerjaan yang dilakukan, maka hal ini dapat menyebabkan attrition.
